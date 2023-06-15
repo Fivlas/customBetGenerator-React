@@ -1,0 +1,108 @@
+.card {
+    display: flex;
+    margin-top: 250px;
+    font-family: Helvetica,sans-serif;
+    justify-content: center;
+    user-select: none;
+}
+
+
+.cardContainer {
+    width: 500px;
+    height: 150px;
+    background: #ffffff;
+    padding: 1.2rem;
+    border-radius: 1.6rem;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.16), 
+                0 8px 8px rgba(0,0,0,0.20);
+}
+
+.title {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    margin-top: 12px;
+    color: #5D6473;
+}
+
+.img {
+    width: 16px;
+    margin-right: 4px;
+    height: 16px;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.content > * {
+    display: inline-block;
+}
+
+.time {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 700;
+    color: #5d6473;
+}
+
+.timeContainer {
+    padding: 0 0.8rem;
+}
+
+.player {
+    color: #272a30;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonsContainer > * {
+    display: inline-block;
+}
+
+.button {
+    background: #ffcc00;
+    height: 4rem;
+    border-radius: 0.8rem;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition-duration: 200ms;
+}
+
+.button:hover {
+    background: #ffe066;
+}
+
+.buttonText {
+    margin-top: 5px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    height: 12px;
+}
+
+.buttonKurs {
+    text-align: center;
+    font-size: 12px;
+    margin: -2px 12px 0px;
+    white-space: nowrap;
+    font-weight: 700;
+}
